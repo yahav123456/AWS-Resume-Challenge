@@ -222,3 +222,14 @@ body{
 .eye :hover{
     color: var(--color-white);
 }
+
+.counter-number-duplicate {
+    color: #6C63FF;
+}
+.custom-text-color {
+    color: #000000;
+}
+
+.navbar-brand {
+    margin-left: 110px; /* Adjust this value as needed */
+}

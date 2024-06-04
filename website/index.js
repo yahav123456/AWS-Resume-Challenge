@@ -26,7 +26,6 @@ function toggle_onclick($win, $navbar, width) {
 
 var typed = new Typed('#typed', {
     strings: [
-        'Cloud Engineer',
         'Devops In Soul',
         'DevOps Engineer'
     ],
@@ -37,7 +36,6 @@ var typed = new Typed('#typed', {
 
 var typed_2 = new Typed('#typed_2', {
     strings: [
-        'Cloud Engineer',
         'Devops In Soul',
         'DevOps Engineer'
     ],
@@ -57,11 +55,17 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 const counter = document.querySelector(".counter-number");
+const counterDuplicates = document.querySelectorAll(".counter-number-duplicate");
+
 async function updateCounter() {
     let response = await fetch(
         "https://kxealgo7y6ufpghixbqxt5m5lm0zlrqe.lambda-url.us-east-1.on.aws/"
     );
     let data = await response.json();
     counter.innerHTML = `👀 Views: ${data}`;
+    counterDuplicates.forEach(duplicate => {
+        duplicate.innerHTML = `And this site has been viewed <span style="color: #6C63FF;">${data}</span> times, enjoy your stay!`;
+    });
 }
+
 updateCounter();
