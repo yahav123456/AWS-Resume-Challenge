@@ -3,7 +3,7 @@ Welcome to my Cloud Resume Challenge project! ☁️
 
 ## [My Web - Click Here!](https://yahavbsresume.online)
 
-<img src="website/assets/work/05.png">
+![archi888888888888888888888888tecture](https://github.com/yahav123456/AWS-Resume-Challenge/assets/166650066/2d5e9c94-b320-4560-ae84-02d2a29c7c3d)
 
 
 Over the course of two intensive weekends, I devoted significant effort to this project. Whether you're an experienced professional or new to AWS, I hope my project inspires and assists you on your own cloud computing journey. Let's dive in together!
