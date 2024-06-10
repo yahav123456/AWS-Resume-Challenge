@@ -107,5 +107,6 @@ Once I had the storage container and static website setup, it was really nice to
 - Every required secret for backend job ,terraform and frontend job are stored as secrets in github actions. 
 - Creating a cicd pipeline definitely improve the development process so the developers can focus on the product instead of focusing on deployment and management of it.
 
-  
+  ![צילום מסך 2024-06-10 223322](https://github.com/yahav123456/aws_resume_challenge/assets/166650066/9ab91a77-6c40-4f24-9cdd-fbf865f3e2e7)
+
 
